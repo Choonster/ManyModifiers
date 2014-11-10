@@ -1,0 +1,7 @@
+## Title: ManyModifiers
+## Interface: 60000
+## Author: Choonster
+## Notes: Allows you to treat any key as a modifier that changes the spell cast by a single specified key (e.g. Mouse Wheel Down)
+## Version: 1.0
+
+core.lua
