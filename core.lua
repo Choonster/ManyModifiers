@@ -31,7 +31,7 @@ local Modifier_OnClick = [[ -- self, button, down
 
 local function CreateModifierButton(key, spell)
 	local button = CreateFrame("Button", "ManyModifiersModifier_" .. key, UIParent, "SecureHandlerClickTemplate")
-	button:RegiserForClicks("AnyUp", "AnyDown")
+	button:RegisterForClicks("AnyUp", "AnyDown")
 	button:SetAttribute("spell", spell)
 	button:SetFrameRef("ManyModifiersButton", ManyModifiersButton)
 	button:SetAttribute("_onclick", Modifier_OnClick)	
